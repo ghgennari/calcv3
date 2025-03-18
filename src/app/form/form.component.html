@@ -8,7 +8,11 @@
         <input type="number" class="form-control" id="num2" [(ngModel)]="num2" name="num2">
       </div>
       <button type="submit" class="btn btn-primary" (click)="onClick()">Soma</button>
+      <button type="submit" class="btn btn-primary" (click)="onMenos()">Subtrair</button>
+      <button type="submit" class="btn btn-primary" (click)="onDivi()">Dividir</button>
+      <button type="submit" class="btn btn-primary" (click)="onMult()">Multiplicar</button>
     <div class="mb-3">
-        <label class="form-label">{{soma}}</label>
+        <label class="form-label">{{resul}}</label>
     </div>
+
   </form>
