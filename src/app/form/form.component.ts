@@ -11,7 +11,7 @@ export class FormComponent {
     num2: number =0;
     resul: number =0;
 
-    onClick(){
+    onSoma(){
       this.resul = this.num1 + this.num2;
     }
 
